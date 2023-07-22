@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="christian-buehner-DItYlc26zVI-unsplash.jpg" />
+    <None Remove="christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg" />
+    <None Remove="icons8-chat-48.png" />
+    <None Remove="icons8-control-panel-32.png" />
+    <None Remove="icons8-home-48.png" />
+    <None Remove="icons8-menu-50.png" />
+    <None Remove="icons8-performance-macbook-30.png" />
+    <None Remove="icons8-target-64.png" />
+    <None Remove="jurica-koletic-7YVZYZeITc8-unsplash.jpg" />
+    <None Remove="linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg" />
+    <None Remove="olawale-munna-_ObjhzjnMmc-unsplash.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HandyControls" Version="3.4.5" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="christian-buehner-DItYlc26zVI-unsplash.jpg" />
+    <Resource Include="christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg" />
+    <Resource Include="icons8-chat-48.png" />
+    <Resource Include="icons8-control-panel-32.png" />
+    <Resource Include="icons8-home-48.png" />
+    <Resource Include="icons8-menu-50.png" />
+    <Resource Include="icons8-performance-macbook-30.png" />
+    <Resource Include="icons8-target-64.png" />
+    <Resource Include="jurica-koletic-7YVZYZeITc8-unsplash.jpg" />
+    <Resource Include="linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg" />
+    <Resource Include="olawale-munna-_ObjhzjnMmc-unsplash.jpg" />
+  </ItemGroup>
+
+</Project>
